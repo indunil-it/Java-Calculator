@@ -2,7 +2,7 @@
 
 A clean, functional calculator built with HTML, CSS Grid, and Vanilla JavaScript. No `eval()` used - built with safe, proper logic.
 
-**🔗 Live Demo:** https://indunil-it.github.io/js-calculator/
+**🔗 Live Demo:** https://indunil-it.github.io/java-calculator/
 
 ## ✨ Features
 - **Basic Operations:** Addition, Subtraction, Multiplication, Division
@@ -41,7 +41,7 @@ No dependencies. No build tools. Just works.
 ## 👨‍💻 Author
 *Indunil*
 - GitHub: https://github.com/indunil-it
-- Project Link: https://github.com/indunil-it/js-calculator
+- Project Link: https://github.com/indunil-it/java-calculator
 
 ---
 *Built with logic, not `eval()` 😉*
