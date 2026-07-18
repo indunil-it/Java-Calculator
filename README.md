@@ -1,47 +1,50 @@
-# JavaScript Calculator 🧮
+# Java Console Calculator ☕
 
-A clean, functional calculator built with HTML, CSS Grid, and Vanilla JavaScript. No `eval()` used - built with safe, proper logic.
+A simple command-line calculator application built with Java. This project demonstrates basic Java fundamentals like user input, switch-case statements, and arithmetic operations.
 
-**🔗 Live Demo:** https://indunil-it.github.io/java-calculator/
+**📂 Repo:** https://github.com/indunil-it/Java-Calculator
 
 ## ✨ Features
-- **Basic Operations:** Addition, Subtraction, Multiplication, Division
-- **Safe Calculation:** No use of `eval()` for security and performance
-- **Responsive UI:** CSS Grid layout works on all screen sizes
-- **Clear Functions:** AC for All Clear, DEL for backspace
-- **Decimal Support:** Handles floating point calculations
-- **Keyboard Friendly:** Clean button layout
+- **Basic Operations:** Performs Addition, Subtraction, Multiplication, and Division.
+- **User Input:** Uses `Scanner` class to take user input from the console.
+- **Error Handling:** Handles division by zero case.
+- **Clean Code:** Uses `switch-case` for readable logic.
+- **Object-Oriented:** Structured with a `main` class and method.
 
 ## 🛠️ Tech Stack
-- **HTML5:** Semantic structure
-- **CSS3:** Grid Layout, Flexbox, Custom Styling
-- **Vanilla JavaScript:** DOM Manipulation, Event Handling, Logic
-- **Deployment:** GitHub Pages
-
-## 📂 Project Structure
-js-calculator/
-├── http://index.html      # Calculator UI structure
-├── http://style.css       # Grid layout and styling
-└── http://script.js       # Calculator logic and functions
+- **Language:** Java
+- **Concepts Used:** Variables, Data Types, Scanner, Switch-Case, Loops, Methods
+- **IDE:** Can be run on VS Code, IntelliJ IDEA, or Eclipse
+- **Version Control:** Git & GitHub
 
 ## 🚀 How to Run Locally
-1.  Clone the repo:
+1.  Make sure you have JDK installed. Check with `java -version`
+2.  Clone the repo:
     ```bash
-    git clone https://github.com/indunil-it/js-calculator.git
-2.  Open `index.html` in your browser.
+    git clone https://github.com/indunil-it/Java-Calculator.git
+3.  Navigate to the folder:
+    cd Java-Calculator
+4.  Compile the Java file:
+    javac Calculator.java
+5.  Run the program:
+    java Calculator
+6.  Follow the on-screen prompts to enter numbers and operators.
 
-No dependencies. No build tools. Just works.
-
+## 📸 Sample Output
+--- Simple Java Calculator ---
+Enter first number: 10
+Enter operator (+, -, *, /): *
+Enter second number: 5
+Result: 50.0
 ## 🔮 Future Improvements
-- [ ] Add keyboard support
-- [ ] Add scientific functions: sin, cos, tan, sqrt
-- [ ] History panel to see previous calculations
-- [ ] Light/Dark theme toggle
+- [ ] Add a loop to perform multiple calculations without restarting
+- [ ] Add Modulus `%` and Power `^` operations
+- [ ] Implement proper exception handling for invalid inputs
+- [ ] Create a GUI version using Java Swing or JavaFX
 
 ## 👨‍💻 Author
 *Indunil*
 - GitHub: https://github.com/indunil-it
-- Project Link: https://github.com/indunil-it/java-calculator
 
 ---
-*Built with logic, not `eval()` 😉*
+*Built to learn Java fundamentals*
